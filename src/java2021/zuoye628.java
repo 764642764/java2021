@@ -1,19 +1,17 @@
 package java2021;
-public class zuoye628  extends Thread{
-    public void run()
-    {
-    	for(int i=0;i<5;i++)
-    	{
-    		System.out.println(i+"+++ ¶àÏß³Ì+++");
-    	}
-    }
-    public static void main(String[] args)
-    {
-    	zuoye628 thread=new zuoye628();
-    	thread.start();
-    	for(int i=0;i<5;i++)
-    	{
-    		System.out.println(i+"---Ö÷Ïß³Ì---");
-    	}
-    }
+
+public class zuoye628 extends Thread {
+	public void run() {
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i + "+++ å¤šçº¿ç¨‹+++");
+		}
+	}
+
+	public static void main(String[] args) {
+		zuoye628 thread = new zuoye628();
+		thread.start();
+		for (int i = 0; i < 5; i++) {
+			System.out.println(i + "---ä¸»çº¿ç¨‹---");
+		}
+	}
 }
